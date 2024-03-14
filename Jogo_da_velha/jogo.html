@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>JOGO DA VELHA</h1>
+    <div id="opcoes">
+        <div class="doisJogadores">
+            <input type="radio" id="doisJogadores" name="modoJogo" checked>
+            <label for="doisJogadores"> Dois Jogadores</label>
+            <i class="fas fa-users"></i>
+        </div>
+        <input type="radio" id="jogadorVsSistema" name="modoJogo">
+        <label for="jogadorVsSistema"><i class="fas fa-robot"></i> Jogador vs Sistema</label>
+    </div>
+
+    <table class="tabuleiro">
+        <tr>
+            <td data-row="0" data-col="0"></td>
+            <td data-row="0" data-col="1"></td>
+            <td data-row="0" data-col="2"></td>
+        </tr>
+        <tr>
+            <td data-row="1" data-col="0"></td>
+            <td data-row="1" data-col="1"></td>
+            <td data-row="1" data-col="2"></td>
+        </tr>
+        <tr>
+            <td data-row="2" data-col="0"></td>
+            <td data-row="2" data-col="1"></td>
+            <td data-row="2" data-col="2"></td>
+        </tr>
+    </table>
+    <script src="javascript.js">
+
+    </script>
+</body>
+
+</html>

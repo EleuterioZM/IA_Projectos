@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.tabuleiro {
+    border-spacing: 10px;
+}
+
+.tabuleiro td {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 48px;
+    cursor: pointer;
+}
+
+.tabuleiro td i {
+    font-size: 3em;
+}
+
+.doisJogadores {
+    margin-top: 200px;
+}
